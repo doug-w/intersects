@@ -10,6 +10,6 @@ public class IntersectsActivity extends AndroidApplication
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        initialize(new Game(), false);
+        initialize(new IntersectsLauncher(), false);
     }
 }
