@@ -1,7 +1,5 @@
 package com.wyntersoft.intersects.models;
 
-import com.badlogic.gdx.math.Vector2;
-
 /**
  * Created by IntelliJ IDEA.
  * User: dwarren

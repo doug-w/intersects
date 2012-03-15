@@ -3,7 +3,7 @@ package com.wyntersoft.intersects.screens;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL10;
-import com.wyntersoft.intersects.com.wnytersoft.intersects.views.Renderer2d;
+import com.wyntersoft.intersects.views.Renderer2d;
 import com.wyntersoft.intersects.models.WorldRep2d;
 
 /**
