@@ -24,6 +24,7 @@ public class WorldRep2d {
 
     public WorldRep2d() {
         rectangle2dList.add(new Rectangle2d(new Point2d(240, 160), 20, 20    ));
-        linesegment2dList.add(new LineSegment2d(new Point2d(140, 140), new Point2d(180, 180)));
+        linesegment2dList.add(new LineSegment2d(new Point2d(140, 140), new Point2d(280, 280)));
+        linesegment2dList.add(new LineSegment2d(new Point2d(200, 100), new Point2d(200, 300)));
     }
 }
