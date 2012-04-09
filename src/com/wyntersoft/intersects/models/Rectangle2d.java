@@ -8,5 +8,38 @@ package com.wyntersoft.intersects.models;
  * To change this template use File | Settings | File Templates.
  */
 public class Rectangle2d {
-    //Vector2 position = new
+    private Point2d center;
+    public float height;
+    public float width;
+
+    public Rectangle2d(Point2d center, float height, float width) {
+        this.setCenter(center);
+        this.height = height;
+        this.width = width;
+    }
+
+    public float getHeight() {
+        return height;
+    }
+
+    public void setHeight(float height) {
+        this.height = height;
+    }
+
+    public float getWidth() {
+        return width;
+    }
+
+    public void setWidth(float width) {
+        this.width = width;
+    }
+
+
+    public Point2d getCenter() {
+        return center;
+    }
+
+    public void setCenter(Point2d center) {
+        this.center = center;
+    }
 }
